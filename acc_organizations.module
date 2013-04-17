@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Access Organization Views feature.
+ */
+
+include_once 'acc_organizations.features.inc';

@@ -1,0 +1,10 @@
+name = Access Organization Views
+description = Provide views according to the organization types for the organization used in Access
+core = 7.x
+package = Humanitarian Access
+dependencies[] = entityreference
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[views_view][] = organizations_affected
+features_exclude[dependencies][ctools] = ctools
