@@ -11,7 +11,7 @@ function acc_organizations_views_default_views() {
   $export = array();
 
   $view = new view();
-  $view->name = 'organizations_affected';
+  $view->name = 'acc_organizations_affected';
   $view->description = '';
   $view->tag = 'Access';
   $view->base_table = 'taxonomy_term_data';
@@ -214,7 +214,7 @@ function acc_organizations_views_default_views() {
   $handler->display->display_options['filters']['field_organization_type_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_organization_type_tid']['vocabulary'] = 'organization_types';
   $handler->display->display_options['filters']['field_organization_type_tid']['hierarchy'] = 1;
-  $translatables['organizations_affected'] = array(
+  $translatables['acc_organizations_affected'] = array(
     t('Master'),
     t('Responsible Actor'),
     t('more'),
@@ -235,7 +235,7 @@ function acc_organizations_views_default_views() {
     t('Targeted Actor'),
     t('Issuing Actor'),
   );
-  $export['organizations_affected'] = $view;
+  $export['acc_organizations_affected'] = $view;
 
   return $export;
 }
