@@ -62,10 +62,11 @@ function acc_organizations_views_default_views() {
   $handler->display->display_options['filters']['field_organization_type_tid']['table'] = 'field_data_field_organization_type';
   $handler->display->display_options['filters']['field_organization_type_tid']['field'] = 'field_organization_type_tid';
   $handler->display->display_options['filters']['field_organization_type_tid']['value'] = array(
-    357 => '357',
-    34 => '34',
-    346 => '346',
-    367 => '367',
+    304 => '304',
+    115 => '115',
+    293 => '293',
+    123 => '123',
+    124 => '124',
   );
   $handler->display->display_options['filters']['field_organization_type_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_organization_type_tid']['vocabulary'] = 'organization_types';
@@ -159,13 +160,11 @@ function acc_organizations_views_default_views() {
   $handler->display->display_options['filters']['field_organization_type_tid']['table'] = 'field_data_field_organization_type';
   $handler->display->display_options['filters']['field_organization_type_tid']['field'] = 'field_organization_type_tid';
   $handler->display->display_options['filters']['field_organization_type_tid']['value'] = array(
-    35 => '35',
-    36 => '36',
-    39 => '39',
-    395 => '395',
-    41 => '41',
-    364 => '364',
-    43 => '43',
+    115 => '115',
+    116 => '116',
+    117 => '117',
+    120 => '120',
+    124 => '124',
   );
   $handler->display->display_options['filters']['field_organization_type_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_organization_type_tid']['vocabulary'] = 'organization_types';
